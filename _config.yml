@@ -4,7 +4,7 @@
 # Site settings
 title: Go Fishing Hawaii
 description: |
-  Authentic Hawaiian Fishing
+  
 owner: Go Fishing Hawaii LLC # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
 email: gofishinghawaii@mail.com
@@ -13,7 +13,7 @@ url: "http://www.gofishinghawaii.com" # the base hostname & protocol for your si
 social:
   instagram: https://instagram.com/gofishing_hawaii
   facebook-official: https://facebook.com/gofishinghawaii
-  email: gofishinghawaii@mail.com
+  email: mailto:gofishinghawaii@mail.com
   #flickr:
   #instagram:
   #youtube-square:
