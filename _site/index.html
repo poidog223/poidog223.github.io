@@ -145,7 +145,18 @@
 						</section>
 					</section>
 
-				<!-- Three -->
+				<!-- IG -->
+
+				<section id="three" class="wrapper style3 special">
+					<div class="inner">
+						<div class="box alt">
+							<div class="row uniform 50%" id="instafeed"></div>
+						</div>
+					</div>
+				</section>
+								
+
+				<!-- Three 
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<div class="box alt">
@@ -163,6 +174,7 @@
 							</div>
 						</div>
 					</section>
+					-->
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
@@ -176,6 +188,8 @@
 							</ul>
 						</div>
 					</section>
+
+
 
 
       <!-- Footer -->
@@ -226,12 +240,25 @@
 <script src="/js/util.js"></script>
 <!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
 <script src="/js/main.js"></script>
-
+<script src="/js/instafeed.min.js"></script>
 
     </div>
 
   <!-- lightbox -->
   <script src="js/lightbox.js"></script>
+  
+  <script type="text/javascript">
+    
+        var feed = new Instafeed({
+            get: 'user',
+            userId: '4092135376',
+            accessToken: '4092135376.1677ed0.b16492d7c9464b8f91e51f7c1feb765f',
+            template: '<div class="4u"><span class="image fit"><a href=" {{image}}" data-lightbox="photo-gallery-index" data-title=""><img src=" {{image}}" alt="" /></span></a></div>',
+            resolution: 'standard_resolution',
+            limit: 9
+        });
+        feed.run();
+    </script>
   </body>
 
 </html>
